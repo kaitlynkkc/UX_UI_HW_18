@@ -1,0 +1,96 @@
+/* General */
+:root{
+    --cream: #FAF5EF;
+    --light-yellow: #FFECC6;
+    --yellow: #FED480;
+    --red: #EC7C6A;
+    --green: #00715D;
+    --blue: #01426A;
+    --black: #1E1E1E;
+}
+body {
+    background-color: var(--cream);
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 50px;
+}
+.inline-block {
+    display: inline-block;
+}
+.flex {
+    display: flex;
+}
+/* Header Section */
+header {
+    border: 1px solid red;
+}
+.tabs {
+    list-style: none;
+}
+/* Hero Section */
+.hero {
+    border: 1px solid red;
+    padding: 100px 0;
+}
+.hero img {
+    border: 1px solid blue;
+    width: 50%;
+    margin-right: 40px;
+}
+.hero-content {
+    border: 1px solid blue;
+}
+/* Meet the Team Section */
+.team {
+    border: 1px solid red;
+    background-image: url("images/wave\ background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#team-members {
+    border: 1px solid blue;
+    flex-direction: row;
+}
+.team-card {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-card img {
+    width: 60%;
+}
+.team-card-text {
+    border: 1px solid red;
+    text-align: center;
+}
+/* Support Section */
+.support {
+    border: 1px solid red;
+}
+.charities {
+    display: flex;
+    flex-flow: row wrap;
+}
+.charities img {
+    width: 10%;
+}
+/* Footer */
+footer {
+    border: 1px solid red;
+}
+footer button {
+    background-color: var(--yellow);
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.action-buttons {
+    
+}
